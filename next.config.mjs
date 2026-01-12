@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  basePath: process.env.NODE_ENV === 'production' ? '/is-it-jcvd' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/is-it-jcvd' : '',
 };
 
 export default nextConfig;
