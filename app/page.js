@@ -8,6 +8,8 @@ import AnswerScreen from '@/components/AnswerScreen';
 import FinalScreen from '@/components/FinalScreen';
 
 const TOTAL_QUESTIONS = 5;
+// En production (build), utilise le basePath, en dev, pas de basePath
+const BASE_PATH = process.env.NODE_ENV === 'production' ? '/is-it-jcvd' : '';
 
 export default function Home() {
   const [gameState, setGameState] = useState('intro'); // 'intro', 'playing', 'answered', 'finished'
@@ -59,7 +61,7 @@ export default function Home() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
         style={{ 
-          backgroundImage: "url('/jcvd-background.jpg')",
+          backgroundImage: `url('${BASE_PATH}/jcvd-background.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
