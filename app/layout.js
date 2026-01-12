@@ -14,9 +14,6 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Jean-Claude Van Damme ou Sans Âme - Quiz",
   description: "Teste ta capacité à distinguer les vraies citations de JCVD des fausses. Es-tu assez aware ?",
-  icons: {
-    icon: '/jcvd-favicon.webp',
-  },
 };
 
 export default function RootLayout({ children }) {
