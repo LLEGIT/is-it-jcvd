@@ -14,7 +14,7 @@ export default function FinalScreen({ score, totalQuestions, onRestart }) {
     };
     if (finalScore === 2) return { 
       title: "SANS ÂME DÉBUTANT 😅", 
-      text: "Tu confonds encore trop souvent la sagesse et l'absurité. Continue à t'entraîner !" 
+      text: "Tu confonds encore trop souvent la sagesse et l'absurdité. Continue à t'entraîner !" 
     };
     return { 
       title: "TOTALEMENT SANS ÂME 💀", 

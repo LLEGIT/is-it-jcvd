@@ -14,7 +14,7 @@ export const quotes: Quote[] = [
   },
   {
     id: 2,
-    text: "L'eau, dans 20-30 ans, l'eau ce sera l'or. Il faudra se battre pour l'eau.",
+    text: "J'adore l'eau. Dans 20 ou 30 ans, y'en aura plus. L'eau c'est la vie, tu comprends ? L'eau c'est comme l'amour, faut la partager.",
     isJCVD: true,
     proof: "Citation célèbre issue de l'interview mythique de 2012 où JCVD évoque les enjeux écologiques avec son style unique.",
   },
